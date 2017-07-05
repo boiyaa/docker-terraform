@@ -1,3 +1,2 @@
-- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform plan`
-- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform apply`
-- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform /bin/sh`
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform` to run terraform
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform /bin/sh` to run shell
