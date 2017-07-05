@@ -1,2 +1,3 @@
-# docker-terraform
-Terraform shellable docker image
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform plan`
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform apply`
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform /bin/sh`
