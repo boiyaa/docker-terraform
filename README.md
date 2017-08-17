@@ -1,2 +1,3 @@
 - `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform` to run terraform
 - `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform /bin/sh` to run shell
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/terraform:graphviz graph | dot -Tpng > graph.png` to run terraform graph with Graphviz
