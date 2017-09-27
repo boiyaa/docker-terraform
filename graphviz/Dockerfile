@@ -1,7 +1,6 @@
 FROM hashicorp/terraform:0.10.0
 
-RUN apk update && \
-    apk --no-cache add graphviz
+RUN apk --update --no-cache add graphviz font-bitstream-type1
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
