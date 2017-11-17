@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.10.1
+FROM hashicorp/terraform:0.10.2
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
