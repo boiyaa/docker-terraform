@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.10.4
+FROM hashicorp/terraform:0.10.5
 
 RUN apk --update --no-cache add graphviz font-bitstream-type1
 
